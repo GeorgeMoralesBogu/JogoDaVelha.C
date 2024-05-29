@@ -1,0 +1,153 @@
+#include <stdio.h>
+
+int main() {
+
+    int resposta;
+    int pontuacao = 0;
+
+    printf("Seja Bem Vindo(a)");
+    printf("\n");
+
+    printf("qual o nome do buraco negro no centro do sistema solar: \n");
+    printf("1 - Sagitario A \n");
+    printf("2 - Ton-618     \n");
+    printf("3 - Centaurus A \n");
+    printf("4 - Phoenix A   \n");
+    scanf("%d", &resposta);
+
+     if(resposta == 1) {
+       printf("acertou! \n");
+          pontuacao++;
+     }else{
+     printf ("errou!");
+     }
+
+         printf(" quantos anos tem o sistema solar?  : \n");
+    printf("1 - 5,6 milhoes de anos\n");
+    printf("2 - 4,7 bilhoes de anos\n");
+    printf("3 - 4,8 bilhoes de anos\n");
+    printf("4 -4,6 bilhoes de anos \n");
+    scanf("%d", &resposta);
+
+     if(resposta == 4) {
+       printf("acertou! \n");
+          pontuacao++;
+     }else{
+     printf ("errou!");
+     }
+
+         printf("Quantos deuses existem na mitologia grega: \n");
+    printf("1 -14 \n");
+    printf("2 - 23\n");
+    printf("3 - 12\n");
+    printf("4 - 15\n");
+    scanf("%d", &resposta);
+
+     if(resposta == 3) {
+       printf("acertou! \n");
+          pontuacao++;
+     }else{
+     printf ("errou!");
+     }
+
+         printf("Afrodite e a Deusa do(a)...: \n");
+    printf("1 - beleza e do amor\n");
+    printf("2 - caça\n");
+    printf("3 - guerra\n");
+    printf("4 - sabedoria\n");
+    scanf("%d", &resposta);
+
+     if(resposta == 1) {
+       printf("acertou! \n");
+          pontuacao++;
+     }else{
+     printf ("errou!");
+     }
+         printf("onde os Deuse Gregos habitaram o monte: \n");
+    printf("1 - Quenia\n");
+    printf("2 - Camaroes\n");
+    printf("3 - olimpo\n");
+    printf("4 - Gebel Marra\n");
+    scanf("%d", &resposta);
+
+     if(resposta == 3) {
+       printf("acertou! \n");
+          pontuacao++;
+     }else{
+     printf ("errou!");
+     }
+
+         printf("o Minotauro e um...: \n");
+    printf("1 - Animal aquatico com a forma de guarda-chuva\n");
+    printf("2 - Ele e descrito como uma criatura monstruosa com corpo de ser humano, mas cabeça e rabo de touro\n");
+    printf("3 - uma especie de animal cnidario de corpo cilindrico e em forma de polipo.\n");
+    printf("4 - e o monstro gigante mais temido de toda a mitologia grega.\n");
+    scanf("%d", &resposta);
+
+     if(resposta == 2) {
+       printf("acertou! \n");
+          pontuacao++;
+     }else{
+     printf ("errou!");
+     }
+
+         printf("Quantas luas tem Jupiter (ate 2023): \n");
+    printf("1 - 75 \n");
+    printf("2 - 87\n");
+    printf("3 - 90\n");
+    printf("4 - 59\n");
+    scanf("%d", &resposta);
+
+     if(resposta == 1) {
+       printf("acertou! \n");
+          pontuacao++;
+     }else{
+     printf ("errou!");
+     }
+
+   printf("quantos  planetas do nosso sistema solar tem nomes de deuses gregos?: \n");
+    printf("1 - 4 .\n");
+    printf("2 - 6 .\n");
+    printf("3 - 1 .\n");
+    printf("4 - 5 .\n");
+    scanf("%d", &resposta);
+
+     if(resposta == 4) {
+       printf("acertou! \n");
+          pontuacao++;
+     }else{
+     printf ("errou!");
+     }
+
+         printf("quantos planetas tem no nosso sistema solar: \n");
+    printf("1 - 9\n");
+    printf("2 - 8\n");
+    printf("3 - 10\n");
+    printf("4 - 5\n");
+    scanf("%d", &resposta);
+
+     if(resposta == 2) {
+       printf("acertou! \n");
+          pontuacao++;
+     }else{
+     printf ("errou!");
+     }
+
+         printf("Qual e o planeta mais quente do Sistema Solar?: \n");
+    printf("1 - venus\n");
+    printf("2 - jupiter\n");
+    printf("3 - nordeste do brasil\n");
+    printf("4 -  marte\n");
+    scanf("%d", &resposta);
+
+     if(resposta == 1) {
+       printf("acertou! \n");
+          pontuacao++;
+     }else{
+     printf ("errou!");
+     }
+
+     {printf(" a pontuacao final e %d:  ",  pontuacao);
+     }
+    return 0;
+}
